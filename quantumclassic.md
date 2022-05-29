@@ -1,5 +1,12 @@
 -   本稿は2022年の4月に行われた，「量子と古典の物理と幾何\@オンライン」(https://connpass.com/event/241136/)という研究会での発表をもとに書いた解説である。
 
+$$
+\begin{eqnarray}
+4a &=& ((a+a)+a)+a \\
+   &=& (a+a)+(a+a)
+\end{eqnarray}
+$$
+
 -   このトピックに関する最新情報は<https://scrapbox.io/flagments/Wave_Equations>にポストしていく予定である。
 
 -   間違いやわかりにくい説明も多々あると思うので，コメントなどお願いします。https://twitter.com/gandhara16，tadas＠fpu.ac.jp。些細なこと（誤字など）でも結構です。
