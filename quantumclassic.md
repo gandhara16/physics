@@ -1,10 +1,12 @@
 -   本稿は2022年の4月に行われた，「量子と古典の物理と幾何\@オンライン」(https://connpass.com/event/241136/)という研究会での発表をもとに書いた解説である。
 
 $$
+a=\left(
 \begin{array}{cc}
 4a &=& ((a+a)+a)+a \\
    &=& (a+a)+(a+a)
 \end{array}
+\right)
 $$
 
 -   このトピックに関する最新情報は<https://scrapbox.io/flagments/Wave_Equations>にポストしていく予定である。
