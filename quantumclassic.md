@@ -48,8 +48,9 @@ Introduction
     3次元の場合は([\[eq:gamma-rule\]](#eq:gamma-rule){reference-type="ref"
     reference="eq:gamma-rule"})を満たす$\gamma$行列は以下のような
     Pauliの$\sigma$行列になる。
-    ```math
-    $$\hat\sigma_{1}=\left(\begin{array}{cc}    0 & 1\\    1 & 0    \end{array}\right)\,,\;\;    \hat\sigma_{2}=\left(\begin{array}{cc}    0 & -i\\    i & 0    \end{array}\right)\,,\;\;    \hat\sigma_{3}=\left(\begin{array}{cc}    1 & 0\\    0 & -1    \end{array}\right)\,. \nonumber
+  
+    $$\hat\sigma_{1}=\left(\begin{array}{cc}  0 & 1\\    1 & 0    \end{array}\right)\,,
+    \;\;    \hat\sigma_{2}=\left(\begin{array}{cc}    0 & -i\\    i & 0    \end{array}\right)\,,\;\;    \hat\sigma_{3}=\left(\begin{array}{cc}    1 & 0\\    0 & -1    \end{array}\right)\,. \nonumber
     $$
     上では行列の形を明示的に書いたが，実は以下で必要なのは
     ([\[eq:gamma-rule\]](#eq:gamma-rule){reference-type="ref"
