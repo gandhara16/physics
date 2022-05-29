@@ -35,7 +35,7 @@ Introduction
     -   3次元の計算を理解すると，必要な要素はだいたいそろっているので，それを4次元に拡張して適用するのは容易である。
 
 -   物理的直感でイメージしやすいように，静電場と静磁場を例にとる。まず，以下の静電場の方程式を考える。
-    $$\nabla\cdot\mathbf{E} = \rho\,,      ~~\nabla\times\mathbf{E} = 0\,,                     ~~\nabla\times\mathbf{B} = \mathbf{J}\,,                 ~~\nabla\cdot\mathbf{B} = 0\,.                \label{eq:3dEM}$$
+    $$\nabla\cdot\mathbf{E} = \rho\,,     ~~\nabla\times\mathbf{E} = 0\,,                     ~~\nabla\times\mathbf{B} = \mathbf{J}\,,                 ~~\nabla\cdot\mathbf{B} = 0\,.                \label{eq:3dEM}$$
 
 -   幾何代数は，このようなベクトル場をDiracの$\gamma$行列であらわし，その代数演算で幾何学的構造をあきらかにする。
     3次元の場合は([\[eq:gamma-rule\]](#eq:gamma-rule){reference-type="ref"
@@ -63,8 +63,8 @@ Static Electric Field
 
 -   上の2つの式の積に対して，$\sigma$行列の演算規則
     ([\[eq:sigma-rule\]](#eq:sigma-rule){reference-type="ref"
-    reference="eq:sigma-rule"}) を使うと $$\begin{aligned}
-    \hat D \hat{\mathbf{E}} =&(\hat{\sigma_1}  \partial_x + \hat \sigma_2 \partial_y + \hat \sigma_3 \partial_z)(\hat \sigma_1 E_x + \hat \sigma_2  E_y + \hat \sigma_3  E_z)\\= & \hat 1(\partial_x E_x + \partial_y E_y + \partial_z E_z)\\ &+ \hat\sigma_3 \hat\sigma_2(\partial_z E_y - \partial_y E_z) + \hat\sigma_3 \hat\sigma_1(\partial_z E_x - \partial_x E_z) + \hat\sigma_1 \hat\sigma_2(\partial_x E_y - \partial_y E_x)\end{aligned}$$
+    reference="eq:sigma-rule"}) を使うと $$\begin{align}
+    \hat D \hat{\mathbf{E}} =&(\hat{\sigma_1}  \partial_x + \hat \sigma_2 \partial_y + \hat \sigma_3 \partial_z)(\hat \sigma_1 E_x + \hat \sigma_2  E_y + \hat \sigma_3  E_z)\\= & \hat 1(\partial_x E_x + \partial_y E_y + \partial_z E_z)\\ &+ \hat\sigma_3 \hat\sigma_2(\partial_z E_y - \partial_y E_z) + \hat\sigma_3 \hat\sigma_1(\partial_z E_x - \partial_x E_z) + \hat\sigma_1 \hat\sigma_2(\partial_x E_y - \partial_y E_x)\end{align}$$
 
     この結果をみると，$\hat 1$の項は$\nabla\cdot\mathbf{E}$を，のこりは$\nabla\times\mathbf{E}$をあらわしていることがわかる。
     Pauli行列$\sigma_i$と単位行列の4つは互いに線形独立なので，これで方程式をつくると，4本の式になる。ここで，$\rho$を電荷密度として，$\hat D \hat{\mathbf{E}}=\hat 1\rho$という式を立てると，これは
