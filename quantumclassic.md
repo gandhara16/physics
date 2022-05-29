@@ -1,6 +1,7 @@
 -   本稿は2022年の4月に行われた，「量子と古典の物理と幾何\@オンライン」(https://connpass.com/event/241136/)という研究会での発表をもとに書いた解説である。
 
 $$
+\hat\sigma_{1}=\left(\begin{array}{cc} 0 & 1\\ 1 & 0 \end{array}\right)
 \begin{align}
 4a &=& ((a+a)+a)+a \\
    &=& (a+a)+(a+a)
