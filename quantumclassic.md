@@ -63,8 +63,8 @@ Static Electric Field
 
 -   上の2つの式の積に対して，$\sigma$行列の演算規則
     ([\[eq:sigma-rule\]](#eq:sigma-rule){reference-type="ref"
-    reference="eq:sigma-rule"}) を使うと $$\begin{align}
-    \hat D \hat{\mathbf{E}} =&(\hat{\sigma_1}  \partial_x + \hat \sigma_2 \partial_y + \hat \sigma_3 \partial_z)(\hat \sigma_1 E_x + \hat \sigma_2  E_y + \hat \sigma_3  E_z)\\= & \hat 1(\partial_x E_x + \partial_y E_y + \partial_z E_z)\\ &+ \hat\sigma_3 \hat\sigma_2(\partial_z E_y - \partial_y E_z) + \hat\sigma_3 \hat\sigma_1(\partial_z E_x - \partial_x E_z) + \hat\sigma_1 \hat\sigma_2(\partial_x E_y - \partial_y E_x)\end{align}$$
+    reference="eq:sigma-rule"}) を使うと $$
+    \hat D \hat{\mathbf{E}} =&(\hat{\sigma_1}  \partial_x + \hat \sigma_2 \partial_y + \hat \sigma_3 \partial_z)(\hat \sigma_1 E_x + \hat \sigma_2  E_y + \hat \sigma_3  E_z)\\= & \hat 1(\partial_x E_x + \partial_y E_y + \partial_z E_z)\\ &+ \hat\sigma_3 \hat\sigma_2(\partial_z E_y - \partial_y E_z) + \hat\sigma_3 \hat\sigma_1(\partial_z E_x - \partial_x E_z) + \hat\sigma_1 \hat\sigma_2(\partial_x E_y - \partial_y E_x)$$
 
     この結果をみると，$\hat 1$の項は$\nabla\cdot\mathbf{E}$を，のこりは$\nabla\times\mathbf{E}$をあらわしていることがわかる。
     Pauli行列$\sigma_i$と単位行列の4つは互いに線形独立なので，これで方程式をつくると，4本の式になる。ここで，$\rho$を電荷密度として，$\hat D \hat{\mathbf{E}}=\hat 1\rho$という式を立てると，これは
